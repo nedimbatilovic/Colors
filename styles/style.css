@@ -3,7 +3,7 @@
           box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Kumbh Sans', sans-serif;
+  font-family: "Kumbh Sans", sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -439,7 +439,8 @@
   background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
 }
 
-.fa-layer-group, .fa-users {
+.fa-layer-group,
+.fa-users {
   font-size: 14rem;
 }
 
@@ -499,7 +500,8 @@
     width: 250px;
     height: 250px;
   }
-  .fa-layer-group, .fa-users {
+  .fa-layer-group,
+  .fa-users {
     font-size: 4rem;
   }
   .main__content h1 {
@@ -789,6 +791,10 @@
 }
 
 @media screen and (max-width: 480px) {
+  .footer__links {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
   .footer__link--items {
     margin: 0;
     padding-top: 10px;

@@ -559,7 +559,7 @@
     width: 100%;
     max-width: 1000px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .footer__link--wrapper {
@@ -645,6 +645,10 @@
 }
 
 @media screen and (max-width: 480px) {
+    .footer__links {
+        justify-content: space-around;
+    }
+
     .footer__link--items {
         margin: 0;
         padding-top: 10px;
